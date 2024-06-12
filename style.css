@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: "chemi_fonti";
+    src: url("Inter-Regular.ttf")
+}
+
+
+
+body {
+    font-family: "chemi_fonti";
+    background-color: rgba(17, 24, 39, 1);
+    color: rgba(209, 213, 219, 1);
+    height: 100vh; 
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+}
+
+
+.headings {
+    width: 125px;
+    background-color: rgba(55, 65, 81, 1);
+    height: 28px;
+    border-radius: 12px;
+}
+
+
+.h {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.p01 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+.col-4 {
+    background-color: rgba(31, 41, 55, 1);
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 32%;
+    padding-top: 30px;
+}
+
+
+
+.icon-avatar {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+
+.p02 {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(249, 250, 251, 1);
+}
+
+
